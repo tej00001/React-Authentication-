@@ -15,8 +15,7 @@ export const AuthContextProvider = (props) =>{
     const loginHandler = (token) =>{
         setToken(token);
     }
-
-    const logoutHandler = ()=>{
+    const logoutHandler = () => {
         setToken(null);
     }
 
